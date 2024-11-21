@@ -1,6 +1,5 @@
 # Digital Clock
-
-This is a simple, interactive digital clock built using HTML, CSS, and JavaScript. It displays the current time in a stylish format with a ticking sound and shows the current day, date, and year.
+This project is an interactive digital clock created with HTML, CSS, and JavaScript. It displays the current time in a modern, eye-catching design, along with a ticking sound for a traditional feel. Additionally, it shows the current day of the week, the date, and the year, all in a responsive layout suitable for both desktop and mobile devices.
 
 ## Features
 
