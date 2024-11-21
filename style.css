@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "FX_LED";
+    src: url("fonts/FX-LED.TTF");
+}
+
+@font-face {
+    font-family: "Hack";
+    src: url("fonts/Hack-Bold.ttf");
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.digital-clock {
+    background-color: rgb(167, 35, 79);
+    color: white;
+    display: flex;
+    border-radius: 2rem;
+    user-select: none;
+    padding: 2rem;
+    border: 1rem solid transparent;
+    border-radius: 2rem;
+    background: linear-gradient(black, black) padding-box,
+                linear-gradient(to right, rgb(223, 96, 117), rgb(15, 113,146)) border-box;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    max-width: 600px; 
+}
+
+.week {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    color: #2d2d2d;
+    font-weight: bold;
+    font-family: "Hack", monospace;
+}
+
+.week .active {
+    color: white;
+}
+
+.time {
+    font-family: "FX_LED", monospace; 
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.date {
+    font-family: "Hack", monospace;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.hour,
+.min,
+.dot {
+    font-size: 6rem;
+}
+
+.invisible {
+    visibility: hidden;
+}
