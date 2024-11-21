@@ -18,9 +18,9 @@ To use this digital clock locally, follow these steps:
    git clone https://github.com/Bhoomikapm0116/digital-clock.git
    ```
 2. Navigate to the Project Folder:
-  ```bash
-  cd digital-clock
-  ```
+   ```bash
+   cd digital-clock
+   ```
 3. Open index.html in your browser:
    Simply open the index.html file in your browser to view the clock in action.
 ## File Structure
