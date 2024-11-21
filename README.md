@@ -23,12 +23,13 @@ To use this digital clock locally, follow these steps:
   ```
 3. Open index.html in your browser:
    Simply open the index.html file in your browser to view the clock in action.
-# File Structure
-Here is the structure of the project
-**index.html**: Contains the HTML structure for the clock.
-**style.css**: Contains the styling for the digital clock.
-**script.js**: Contains the JavaScript code for updating the time, date, and playing the ticking sound.
-**fonts/**: Contains custom fonts (FX-LED and Hack).
+## File Structure
+
+- `index.html`: Contains the HTML structure for the clock.
+- `style.css`: Contains the styling for the digital clock.
+- `script.js`: Contains the JavaScript code for updating the time, date, and playing the ticking sound.
+- `fonts/`: Contains custom fonts (**FX-LED** and **Hack**).
+
 # Customization
 You can easily customize the appearance of the clock by modifying the style.css file. Additionally, you can change the ticking sound by replacing the tick.mp3 file in the <audio> tag.
 ## Acknowledgments
